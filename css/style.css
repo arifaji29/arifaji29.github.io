@@ -10,12 +10,19 @@ body {
 
 .jumbotron img {
 	width: 200px;
-	border: 5px solid #ffe208
+	border: 5px solid #ffe208;
 }
+
+
 
 .jumbotron h1 {
 	font-size: 70 px ;
 
+}
+
+.img-circle:hover {
+	transform: scale(1.4);
+	transition: .3s ease-in;
 }
 
 
