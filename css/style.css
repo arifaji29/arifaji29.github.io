@@ -132,7 +132,15 @@ line-height: 0;
 	transition: all .1s ease-in;
 }
 
+.sosmed img {
+	width: 50px;
+	margin-right: 10px;
+}
 
+.sosmed img:hover {
+	transform:scale(1.3);
+	transition: .3s ease-in;
+}
 
 
 
