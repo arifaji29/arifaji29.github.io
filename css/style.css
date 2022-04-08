@@ -142,7 +142,9 @@ line-height: 0;
 	transition: .3s ease-in;
 }
 
-
+.d-none {
+	display: none;
+}
 
 
 
