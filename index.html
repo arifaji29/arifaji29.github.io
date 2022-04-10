@@ -65,21 +65,21 @@
 	
 	
 	
-	<!-- About -->
+	<!-- about -->
 	<section class="about" id="about">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12">
+				<div class="col-sm-12" data-aos="fade-down" data-aos-duration="1000">
 					<h2 class="text-center">About</h2>
 					<hr>	
 				</div>
 			</div>
 			
-				<div class="row" data-aos="fade-down" data-aos-offset="400">
-					<div class="col-sm-4 col-sm-offset-2">
+				<div class="row">
+					<div class="col-sm-4 col-sm-offset-2" data-aos="fade-right" data-aos-duration="1000">
 						<p align="justify"><strong>Hallo saya Arif,</strong> Saya adalah seorang Desainer Grafis dan Website Developer. Saya lahir di Pekalongan pada tanggal 29 Maret 1997. Saat ini saya tinggal di Pekalongan Jawa Tengah. Saya menamatkan studi S1 pada tahun 2019 di Universitas Negeri Semarang Jurusan Pendidikan Non Formal. Saya menguasai beberapa software desain diantaranya : Corel Draw, Adobe Photoshop, Canva.</p>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
 						<p align="justify" >Saat ini saya bekerja sebagai Desainer Grafis di Salah satu brand clothing di Pekalongan. Selain Desain Grafis saya juga tertarik pada bidang Web Programming dan saat ini tengah belajar di salah satu Bootcamp fullstack web developer secara online. Teknologi website yang saya kuasai sekarang anatara lain : html, css, bootstrap, Javascript, dan php. </p>
 					</div>
 				</div>
@@ -92,7 +92,7 @@
 	<section class="portofolio" id="portofolio">
 		<div class="container">
 			<div class="row">
-					<div class="col-sm-12 text-center">
+					<div class="col-sm-12 text-center" data-aos="fade-right" data-aos-duration="2000">
 						<h2>Portofolio Design</h2>
 						<hr>
 					</div>
@@ -212,7 +212,7 @@
 			
 		</div>
 	</section>
-	<!-- Akhir portofolioo -->
+	<!-- Akhir Portofolioo -->
 	
 	
 	
@@ -220,7 +220,7 @@
 	<section class="contact" id="contact">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12 text-center">
+			<div class="col-sm-12 text-center" data-aos="fade-left" data-aos-duration="2000">
 				<h2>Contact Me</h2>
 				<hr>
 			</div>
@@ -297,7 +297,9 @@
 	 <!-- AOS -->
 	 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	 <script>
-	   AOS.init();
+	   AOS.init({
+		once: true, 
+	   });
 	 </script>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
