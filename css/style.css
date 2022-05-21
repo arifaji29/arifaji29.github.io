@@ -7,8 +7,15 @@ body {
 	margin-top: 30px;
 	
 }
+
 .jumbotron{
-	background-color: rgb(228, 228, 228);
+	padding-top: 5rem;
+	background-color:#e2e1e1;
+	color: #1f1e1e;
+	height: 650px;
+	padding-bottom: 0px;
+	
+	
 }
 
 .jumbotron img {
@@ -19,7 +26,8 @@ body {
 
 
 .jumbotron h1 {
-	font-size: 70 px ;
+	font-size: 60 px ;
+	font-family:'arial';
 
 }
 
@@ -52,12 +60,12 @@ footer {
 	bottom: 0;
 	width: 100%;
 	height: 120x;
-	background-color:rgb(228, 228, 228);
+	background-color:#bbbbbb;
 	padding-top: 30px;
 }
 	
 footer p {
-	color: #0f0f0f;
+	color: #ffffff;
 }
 
 .thumbnail {
@@ -136,8 +144,8 @@ line-height: 0;
 }
 
 .sosmed img {
-	width: 50px;
-	margin-right: 10px;
+	width: 35px;
+	margin-right: 25px;
 }
 
 .sosmed img:hover {

@@ -28,7 +28,7 @@
 
 	<!-- Awal Navbar -->
 	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
 					data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -56,11 +56,16 @@
 
 
 	<!-- Jumbotron -->
-	<div class="jumbotron text-center">
+	<section class="jumbotron text-center">
 		<img src="img/fotoku.jpg" class="img-circle">
 		<h1 class="info-profil">Arif Aji Fadilah</h1>
 		<p class="lead-board"></p>
-	</div>
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+			<path fill="#ffff" fill-opacity="1"
+				d="M0,160L34.3,176C68.6,192,137,224,206,208C274.3,192,343,128,411,101.3C480,75,549,85,617,117.3C685.7,149,754,203,823,229.3C891.4,256,960,256,1029,224C1097.1,192,1166,128,1234,117.3C1302.9,107,1371,149,1406,170.7L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+			</path>
+		</svg>
+	</section>
 
 	<!-- Akhir Jumbotron -->
 
@@ -75,20 +80,25 @@
 					<hr>
 				</div>
 			</div>
-
-			<div class="row">
-				<div class="col-sm-4 col-sm-offset-2" data-aos="fade-right" data-aos-duration="1000">
-					<p align="justify"><strong>Hallo saya Arif,</strong> Saya adalah seorang Desainer Grafis dan Website
-						Developer. Saya lahir di Pekalongan pada tanggal 29 Maret 1997. Saat ini saya tinggal di
-						Pekalongan Jawa Tengah. Saya menamatkan studi S1 pada tahun 2019 di Universitas Negeri Semarang
-						Jurusan Pendidikan Non Formal. Saya menguasai beberapa software desain diantaranya : Corel Draw,
-						Adobe Photoshop, Canva.</p>
-				</div>
-				<div class="col-sm-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
-					<p align="justify">Saat ini saya bekerja sebagai Desainer Grafis di Salah satu brand clothing di
-						Pekalongan. Selain Desain Grafis saya juga tertarik pada bidang Web Programming dan saat ini
-						tengah belajar di salah satu Bootcamp fullstack web developer secara online. Teknologi website
-						yang saya kuasai sekarang anatara lain : html, css, bootstrap, Javascript, dan php. </p>
+			<div class="container">
+				<div class="row justify-content-start">
+					<div class="col-sm-4 col-sm-offset-2" data-aos="fade-right" data-aos-duration="1000">
+						<p align="justify"><strong>Hallo saya Arif,</strong> Saya adalah seorang Desainer Grafis dan
+							Website
+							Developer. Saya lahir di Pekalongan pada tanggal 29 Maret 1997. Saat ini saya tinggal di
+							Pekalongan Jawa Tengah. Saya menamatkan studi S1 pada tahun 2019 di Universitas Negeri
+							Semarang
+							Jurusan Pendidikan Non Formal. Saya menguasai beberapa software desain diantaranya : Corel
+							Draw,
+							Adobe Photoshop, Canva.</p>
+					</div>
+					<div class="col-sm-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+						<p align="justify">Saat ini saya bekerja sebagai Desainer Grafis di Salah satu brand clothing di
+							Pekalongan. Selain Desain Grafis saya juga tertarik pada bidang Web Programming dan saat ini
+							tengah belajar di salah satu Bootcamp fullstack web developer secara online. Teknologi
+							website
+							yang saya kuasai sekarang anatara lain : html, css, bootstrap, Javascript, dan php. </p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -319,9 +329,9 @@
 	<script>
 		// gsap.from('.img-circle', { duration: 1, rotateY:360, opacity: 0, });
 		gsap.registerPlugin(TextPlugin);
-		gsap.to('.lead-board', {duration:2, delay:1, text:'Graphic Design & Web Programming Enthusiast' })
-		gsap.from('.navbar', {duration:1.5, y:'-100%', opacity:0, ease:'bounce'});
-		gsap.from('.info-profil', {duration:1.5, x:-50, opacity:0, delay:0.5, ease:'back'})
+		gsap.to('.lead-board', { duration: 2, delay: 1, text: 'Graphic Design & Web Programming Enthusiast' })
+		gsap.from('.navbar', { duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce' });
+		gsap.from('.info-profil', { duration: 1.5, x: -50, opacity: 0, delay: 0.5, ease: 'back' })
 	</script>
 
 	<!-- ini scrip gsap -->
