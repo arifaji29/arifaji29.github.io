@@ -1,0 +1,45 @@
+html {
+	position: relative;
+}
+
+body {
+	height: 3000px;
+}
+
+
+.jumbotron {
+    padding-top: 5rem;
+    background-color: #dddfe0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.jumbotron img {
+	width: 200px;
+	border: 5px solid #ffe208;
+
+}
+
+section {
+	padding-top: 5rem;
+}
+
+
+
+.portofolio {
+	background-color:#dddfe0;
+}
+
+footer{
+	background-color:#dddfe0;
+	padding-top:5px;
+	padding-bottom: 20px;
+	
+}
+.sosmed a {
+	text-decoration: none;
+}
+.sosmed img {
+	width: 35px;
+	margin-left: 25px;
+	
+}
+
