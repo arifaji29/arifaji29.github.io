@@ -7,12 +7,6 @@ body {
 }
 
 
-@font-face {
-	font-family: "quicksand";
-	src: url('QUICKSAND-VARIABLEFONT_WGHT.TTF'
-	);
-}
-
 .jumbotron {
     padding-top: 5rem;
     background-color: #dddfe0;
