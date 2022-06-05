@@ -32,6 +32,8 @@ section {
 	padding-top: 20px;
 }
 
+
+
 .custom-popover {
 	--bs-popover-max-width: 200px;
 	--bs-popover-border-color: var(--bs-white);
