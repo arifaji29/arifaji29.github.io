@@ -2,9 +2,9 @@ html {
 	position: relative;
 }
 
-body {
+/* body {
 	height: 3000px;
-}
+} */
 
 
 .jumbotron {
@@ -21,14 +21,30 @@ body {
 }
 
 section {
-	padding-top: 5rem;
+	padding-top: 3rem;
 }
 
 
 
-.portofolio {
+.skills {
 	background-color:#dddfe0;
+	
+	padding-top: 20px;
 }
+
+.custom-popover {
+	--bs-popover-max-width: 200px;
+	--bs-popover-border-color: var(--bs-white);
+	--bs-popover-bg: var(--bs-dark);
+	--bs-popover-body-color: var(--bs-white);
+	--bs-popover-body-padding-x: 1rem;
+	--bs-popover-body-padding-y: .5rem;
+  }
+
+/* .logo {
+	padding: 10px;
+} */
+
 
 footer{
 	background-color:#dddfe0;
